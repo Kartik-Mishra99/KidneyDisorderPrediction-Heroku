@@ -1,6 +1,7 @@
 import pickle
 from flask import Flask, render_template, request
 import numpy as np
+import pandas as pd
 
 model = pickle.load(open('RF_kidney.pkl','rb'))
 
